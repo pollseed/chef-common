@@ -1,0 +1,5 @@
+/cookbooks/
+.DS_Store
+.vagrant.d/
+environments/
+Berksfile
