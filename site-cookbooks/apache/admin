@@ -1,4 +1,4 @@
-    font-family: arial, sans-serif;
+
    <VirtualHost *:80>
       ServerName example.com
       DocumentRoot /var/git/bastion/public
