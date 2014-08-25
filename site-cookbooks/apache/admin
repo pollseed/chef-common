@@ -1,0 +1,9 @@
+    font-family: arial, sans-serif;
+   <VirtualHost *:80>
+      ServerName example.com
+      DocumentRoot /var/git/bastion/public
+      <Directory /var/git/bastion/public>
+         AllowOverride all
+         Options -MultiViews
+      </Directory>
+   </VirtualHost>
